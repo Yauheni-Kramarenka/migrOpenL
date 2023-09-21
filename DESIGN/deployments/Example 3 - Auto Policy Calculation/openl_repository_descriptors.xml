@@ -6,4 +6,11 @@
         <projectName>Example 3 - Auto Policy Calculation</projectName>
         <projectVersion>2</projectVersion>
     </descriptor>
+    <descriptor>
+        <repositoryId>design</repositoryId>
+        <path>DESIGN/rules/Example 1 - Bank Rating</path>
+        <projectName>Example 1 - Bank Rating</projectName>
+        <branch>main</branch>
+        <projectVersion>b915ff6301a6300d068a5238c94c633c312b4695</projectVersion>
+    </descriptor>
 </descriptors>
