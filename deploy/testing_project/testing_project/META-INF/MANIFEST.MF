@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Build-Date: 2023-09-21T15:34:12.989356+04:00
-Created-By: OpenL WebStudio v.5.26.6
-Implementation-Title: testing_project
-Build-Number: 10
-Implementation-Version: user-2023-09-21_11-22-44
-Built-By: admin
-
