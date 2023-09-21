@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Build-Date: 2023-09-21T16:41:14.666119+04:00
+Created-By: OpenL WebStudio v.5.26.6
+Implementation-Title: Example 3 - Auto Policy Calculation
+Build-Branch: main
+Build-Number: 652e698fed728c145bdc1820ec423192bc5fc650
+Implementation-Version: admin-2023-09-21_15-14-30
+Built-By: admin
+
