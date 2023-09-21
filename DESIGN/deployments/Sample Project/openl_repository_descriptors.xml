@@ -1,9 +1,0 @@
-
-<descriptors>
-    <descriptor>
-        <repositoryId>design</repositoryId>
-        <path>DESIGN/rules/Sample Project</path>
-        <projectName>Sample Project</projectName>
-        <projectVersion>1</projectVersion>
-    </descriptor>
-</descriptors>
