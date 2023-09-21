@@ -1,0 +1,10 @@
+<project>
+    <name>testing_project</name>
+    <comment>test</comment>
+    <modules>
+        <module>
+            <name>condition_error</name>
+            <rules-root path="condition_error.xlsx"/>
+        </module>
+    </modules>
+</project>
