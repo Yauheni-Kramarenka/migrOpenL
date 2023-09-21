@@ -2,15 +2,16 @@
 <descriptors>
     <descriptor>
         <repositoryId>design</repositoryId>
-        <path>DESIGN/rules/Example 3 - Auto Policy Calculation</path>
-        <projectName>Example 3 - Auto Policy Calculation</projectName>
-        <projectVersion>2</projectVersion>
-    </descriptor>
-    <descriptor>
-        <repositoryId>design</repositoryId>
         <path>DESIGN/rules/Example 1 - Bank Rating</path>
         <projectName>Example 1 - Bank Rating</projectName>
         <branch>main</branch>
         <projectVersion>b915ff6301a6300d068a5238c94c633c312b4695</projectVersion>
+    </descriptor>
+    <descriptor>
+        <repositoryId>design</repositoryId>
+        <path>DESIGN/rules/Example 3 - Auto Policy Calculation</path>
+        <projectName>Example 3 - Auto Policy Calculation</projectName>
+        <branch>main</branch>
+        <projectVersion>652e698fed728c145bdc1820ec423192bc5fc650</projectVersion>
     </descriptor>
 </descriptors>
