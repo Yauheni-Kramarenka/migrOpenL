@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Build-Date: 2023-09-28T17:33:17.545234+04:00
+Build-Date: 2023-09-28T17:35:02.257107+04:00
 Created-By: OpenL WebStudio v.5.27.1-SNAPSHOT
 Implementation-Title: Intro to Table Properties
 Build-Branch: master
-Build-Number: f4cd4f52acc27649128eb71701a438048798d910
-Implementation-Version: DEFAULT-2023-09-28_14-54-17
+Build-Number: 2e6a03d65245ca6427feedf0189c96cc156e93d8
+Implementation-Version: DEFAULT-2023-09-28_17-34-58
 Built-By: DEFAULT
 
