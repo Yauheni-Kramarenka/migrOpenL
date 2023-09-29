@@ -1,0 +1,9 @@
+
+<descriptors>
+    <descriptor>
+        <repositoryId>design</repositoryId>
+        <path>DESIGN/rules/Example 1 - Bank Rating</path>
+        <projectName>Example 1 - Bank Rating</projectName>
+        <projectVersion>2</projectVersion>
+    </descriptor>
+</descriptors>
