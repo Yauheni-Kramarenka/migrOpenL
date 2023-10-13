@@ -1,0 +1,9 @@
+
+<descriptors>
+    <descriptor>
+        <repositoryId>design</repositoryId>
+        <path>DESIGN/rules/Example 3 - Auto Policy Calculation</path>
+        <projectName>Example 3 - Auto Policy Calculation</projectName>
+        <projectVersion>3</projectVersion>
+    </descriptor>
+</descriptors>
