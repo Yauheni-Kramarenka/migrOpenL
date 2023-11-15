@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.eisgroup.genesis.proto.openl.policy.life</groupId>
+        <artifactId>openl-policy-life-proto-parent-pom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>gplu-rating-alg</artifactId>
+    <packaging>openl</packaging>
+
+    <name>GPLU Rating Alg</name>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.openl.rules</groupId>
+                <artifactId>openl-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <deploymentName>GPLU Rating</deploymentName>
+                    <deploymentPackage>true</deploymentPackage>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.eisgroup.genesis.openl.integration.core</groupId>
+            <artifactId>openl-message-bundle-plugin</artifactId>
+            <classifier>extension</classifier>
+            <type>tile</type>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.eisgroup.genesis.proto.openl.policy.life</groupId>
+            <artifactId>pl-product-model</artifactId>
+            <version>${project.version}</version>
+            <optional>true</optional>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.eisgroup.genesis.openl.integration.core</groupId>
+            <artifactId>openl-rating-details-store</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.eisgroup.genesis.openl.integration.core</groupId>
+            <artifactId>storelogdata-bundle</artifactId>
+            <type>pom</type>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.eisgroup.genesis.openl.integration.core</groupId>
+            <artifactId>webservices-bundle</artifactId>
+            <type>pom</type>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eisgroup.genesis.openl.integration.core</groupId>
+            <artifactId>openl-census</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,33 @@
+<project>
+    <name>GPLU Rating</name>
+    <comment></comment>
+    <modules>
+        <module>
+            <name></name>
+            <rules-root path="rules/*.xlsx"/>
+            <method-filter>
+                <includes>
+                    <value>.+ AgeBandsList\(\)</value>
+                    <value>.+ PolicyOverrideCalculation\(.+\)</value>
+                    <value>.+ getTestDataForJSON\(\)</value>
+                    <value>.+ PolicyCalculation\(.+\)</value>
+                </includes>
+            </method-filter>
+        </module>
+    </modules>
+    <classpath>
+        <entry path="groovy"/>
+        <entry path="lib/*.jar"/>
+    </classpath>
+    <dependencies>
+        <dependency>
+            <name>PL Product Model</name>
+            <autoIncluded>false</autoIncluded>
+        </dependency>
+    </dependencies>
+    <properties-file-name-pattern>Universal Life Algorithm-%state%-%effectiveDate:yyyyMMdd%-%startRequestDate:yyyyMMdd%</properties-file-name-pattern>
+    <properties-file-name-pattern>Universal Life Lookups-%state%-%effectiveDate:yyyyMMdd%-%startRequestDate:yyyyMMdd%</properties-file-name-pattern>
+    <properties-file-name-pattern>Universal Life Model</properties-file-name-pattern>
+    <properties-file-name-pattern>Universal Life Tests</properties-file-name-pattern>
+    <properties-file-name-pattern>Universal Life Override-%state%-%effectiveDate:yyyyMMdd%-%startRequestDate:yyyyMMdd%</properties-file-name-pattern>
+</project>
